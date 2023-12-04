@@ -13,6 +13,7 @@ import java.net.URL;
 import java.util.List;
 
 public class RomeEx2 {
+    // good job
      public static void parse() {
         try {/* ww w . j a va 2 s . c om */
             // String urlString = "http://feeds.reuters.com/reuters/topNews";

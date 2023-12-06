@@ -13,11 +13,11 @@ import java.net.URL;
 import java.util.List;
 
 public class RomeEx2 {
-    // good job
-     public static void parse() {
+    public static void main(String[] args) {
         try {/* ww w . j a va 2 s . c om */
             // String urlString = "http://feeds.reuters.com/reuters/topNews";
             // URL feedUrl = new URL(urlString);
+
             File nasaFile = new File("C:/Users/ak1048135/Downloads/Abe's git folder/nasaparser/nasa.xml");
 
             SyndFeedInput input = new SyndFeedInput();
@@ -53,5 +53,4 @@ public class RomeEx2 {
             System.out.println("Error: " + ex.getMessage());
         }
     }
-
 }
